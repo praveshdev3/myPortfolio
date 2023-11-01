@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "homepage": "https://praveshdev3.github.io/myPortfolio",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@ionic/react": "^7.5.2",
     "@testing-library/jest-dom": "^5.17.0",

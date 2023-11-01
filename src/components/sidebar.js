@@ -1,6 +1,6 @@
 import React from "react";
 import { IonIcon } from "@ionic/react";
-import imageContent from "../assets/p-logo.jpeg"
+import imageContent from "../assets/dp.jpeg"
 import {
   chevronDown,
   mailOutline,
@@ -31,7 +31,11 @@ function Sidebar() {
           <p className="title">Full Stack developer</p>
         </div>
 
-        <button className="info_more-btn" data-sidebar-btn>
+        <button className="info_more-btn" data-sidebar-btn onClick={()=>{
+            const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
+            const sidebar = document.querySelector("[data-sidebar]");
+            elementToggleFunc(sidebar);
+        }}>
           <span>Show Contacts</span>
 
           <IonIcon icon={chevronDown}></IonIcon>

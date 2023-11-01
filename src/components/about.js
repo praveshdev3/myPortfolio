@@ -32,42 +32,48 @@ function About() {
           and industry trends.
         </p>
       </section>
-      <section class="clients">
-        <h3 class="h3 clients-title">Skills</h3>
+      <section className="clients">
+        <h3 className="h3 clients-title">Skills</h3>
 
-        <ul class="clients-list has-scrollbar">
-          <li class="clients-item">
-            <a href="#"></a>
+        <ul className="clients-list has-scrollbar">
+          <li className="clients-item">  
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" height="100px" width="100px"/>
           </li>
 
-          <li class="clients-item">
-            <a href="#">
-              <img src="./assets/images/logo-2-color.png" alt="client logo" />
-            </a>
+          <li className="clients-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" height="100px" width="100px" />
           </li>
 
-          <li class="clients-item">
-            <a href="#">
-              <img src="./assets/images/logo-3-color.png" alt="client logo" />
-            </a>
+          <li className="clients-item"> 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" height="100px" width="100px"/>
           </li>
 
-          <li class="clients-item">
-            <a href="#">
-              <img src="./assets/images/logo-4-color.png" alt="client logo" />
-            </a>
+          <li className="clients-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" height="100px" width="100px"/>
           </li>
 
-          <li class="clients-item">
-            <a href="#">
-              <img src="./assets/images/logo-5-color.png" alt="client logo" />
-            </a>
+          <li className="clients-item">  
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" height="100px" width="100px" />
           </li>
 
-          <li class="clients-item">
-            <a href="#">
-              <img src="./assets/images/logo-6-color.png" alt="client logo" />
-            </a>
+          <li className="clients-item"> 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" height="100px" width="100px"  />
+          </li>
+
+          <li className="clients-item"> 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="100px" width="100px"/>
+          </li>
+
+          <li className="clients-item"> 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" height="100px" width="100px"/>
+          </li>
+
+          <li className="clients-item">    
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="100px" width="100px" />
+          </li>
+
+          <li className="clients-item">      
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"  height="100px" width="100px"/>
           </li>
         </ul>
       </section>{" "}

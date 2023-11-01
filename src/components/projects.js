@@ -18,7 +18,7 @@ function Projects({isActive}) {
           <ul className="project-list">
 
             <li className="project-item  active" data-filter-item data-category="web development">
-              <a href="https://github.com/praveshdev3/myPortfolio" target="_blank">
+              <a href="https://praveshdev3.github.io/myPortfolio/" target="_blank">
 
                 <figure className="project-img">
                   <div className="project-item-icon-box">

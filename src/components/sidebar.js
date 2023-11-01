@@ -28,7 +28,7 @@ function Sidebar() {
             Pravesh Goyal
           </h1>
 
-          <p className="title">Full Stack developer</p>
+          <p className="title">Full Stack Developer</p>
         </div>
 
         <button className="info_more-btn" data-sidebar-btn onClick={()=>{

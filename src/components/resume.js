@@ -1,6 +1,6 @@
 import "../index.css";
 import React, {useState,useEffect}from "react";
-import MyResume from "../assets/Pravesh_Goyal.pdf"
+import MyResume from "../assets/Pravesh's Resume.pdf"
 import { Document, Page, pdfjs } from "react-pdf";
 import { IonIcon } from "@ionic/react";
 import {

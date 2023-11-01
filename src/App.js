@@ -3,6 +3,7 @@ import Sidebar from "./components/sidebar";
 import Navbar from "./components/navbar";
 import About from "./components/about";
 import React from "react";
+import Experience from "./components/experience";
 
 function App() {
   const [page, setPage] = React.useState("about");
@@ -15,7 +16,8 @@ function App() {
         <Sidebar />
         <div className="main-content">
           <Navbar onPageChange = {handlePageChange}/>
-         { page === "about" ? <About /> : null}
+          <About isActive = {page === "about"}/>
+          <Experience isActive = {page === "experience"}/>
         </div>
       </main>
     </>

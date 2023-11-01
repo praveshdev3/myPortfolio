@@ -2,29 +2,38 @@ import "../index.css";
 import React from "react";
 
 function Navbar({onPageChange}) {
+  const [page, setPage] = React.useState("about");
   return (
     <nav className="navbar">
       <ul className="navbar-list">
         <li className="navbar-item">
-          <button className="navbar-link  active" data-nav-link onClick={() => {onPageChange("about")}}>
+          <button className={page === "about"? "navbar-link  active" : "navbar-link"} data-nav-link onClick={() => {
+            setPage("about")
+            onPageChange("about")}}>
             About
           </button>
         </li>
 
         <li className="navbar-item">
-          <button className="navbar-link" data-nav-link onClick={() => {onPageChange("experience")}}>
+          <button className={page === "experience"? "navbar-link  active" : "navbar-link"} data-nav-link onClick={() => {
+            setPage("experience")
+            onPageChange("experience")}}>
             Experience
           </button>
         </li>
 
         <li className="navbar-item">
-          <button className="navbar-link" data-nav-link onClick={() => {onPageChange("projects")}}>
+          <button className={page === "projects"? "navbar-link  active" : "navbar-link"} data-nav-link onClick={() => {
+            setPage("projects")
+            onPageChange("projects")}}>
             Projects
           </button>
         </li>
 
         <li className="navbar-item">
-          <button className="navbar-link" data-nav-link onClick={() => {onPageChange("contact")}}>
+          <button className={page === "contact"? "navbar-link  active" : "navbar-link"} data-nav-link onClick={() => {
+            setPage("contact")
+            onPageChange("contact")}}>
             Contact
           </button>
         </li>

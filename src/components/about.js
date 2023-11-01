@@ -1,9 +1,9 @@
 import "../index.css";
 import React from "react";
 
-function About() {
+function About({isActive}) {
   return (
-    <article className="about  active" data-page="about">
+    <article className={isActive ? "about active" : 'about'}  data-page="about">
       <header>
         <h2 className="h2 article-title">About me</h2>
       </header>

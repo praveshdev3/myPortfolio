@@ -1,7 +1,7 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
-  "homepage": "https://github.com/praveshdev3/myPortfolio",
+  "homepage": "https://praveshdev3.github.io/myPortfolio",
   "private": false,
   "dependencies": {
     "@ionic/react": "^7.5.2",

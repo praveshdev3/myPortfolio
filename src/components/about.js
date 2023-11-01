@@ -37,43 +37,43 @@ function About({isActive}) {
 
         <ul className="clients-list has-scrollbar">
           <li className="clients-item">  
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" height="100px" width="100px"/>
+            <img alt="go" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" height="100px" width="100px"/>
           </li>
 
           <li className="clients-item">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" height="100px" width="100px" />
+            <img alt="nodejs" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" height="100px" width="100px" />
           </li>
 
           <li className="clients-item"> 
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" height="100px" width="100px"/>
+            <img alt="angularjs" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" height="100px" width="100px"/>
           </li>
 
           <li className="clients-item">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" height="100px" width="100px"/>
+            <img alt="mongodb" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" height="100px" width="100px"/>
           </li>
 
           <li className="clients-item">  
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" height="100px" width="100px" />
+            <img alt="postgresql" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" height="100px" width="100px" />
           </li>
 
           <li className="clients-item"> 
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" height="100px" width="100px"  />
+            <img alt="aws" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" height="100px" width="100px"  />
           </li>
 
           <li className="clients-item"> 
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="100px" width="100px"/>
+            <img alt="javascript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="100px" width="100px"/>
           </li>
 
           <li className="clients-item"> 
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" height="100px" width="100px"/>
+            <img alt="git" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" height="100px" width="100px"/>
           </li>
 
           <li className="clients-item">    
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="100px" width="100px" />
+            <img alt="react" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="100px" width="100px" />
           </li>
 
           <li className="clients-item">      
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"  height="100px" width="100px"/>
+            <img alt="docker" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"  height="100px" width="100px"/>
           </li>
         </ul>
       </section>{" "}

@@ -31,10 +31,10 @@ function Navbar({onPageChange}) {
         </li>
 
         <li className="navbar-item">
-          <button className={page === "contact"? "navbar-link  active" : "navbar-link"} data-nav-link onClick={() => {
-            setPage("contact")
-            onPageChange("contact")}}>
-            Contact
+          <button className={page === "resume"? "navbar-link  active" : "navbar-link"} data-nav-link onClick={() => {
+            setPage("resume")
+            onPageChange("resume")}}>
+            Resume
           </button>
         </li>
       </ul>

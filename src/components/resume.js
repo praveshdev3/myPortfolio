@@ -25,7 +25,7 @@ function Resume({isActive}) {
         </button>
         </a>
     <Document file={MyResume}>
-      <Page pageNumber={1} scale={width > 786 ? 1.4 : 0.4} renderAnnotationLayer={false} renderTextLayer={false}/>
+      <Page pageNumber={1} scale={width > 786 ? 1.4 : 0.5} renderAnnotationLayer={false} renderTextLayer={false}/>
     </Document>
     </article>
   );

@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/myPortfolio/static/css/main.f9ca8e1b.css",
-    "main.js": "/myPortfolio/static/js/main.8eb7b15a.js",
+    "main.js": "/myPortfolio/static/js/main.aaebb5fd.js",
     "static/js/738.6fe02713.chunk.js": "/myPortfolio/static/js/738.6fe02713.chunk.js",
     "static/js/466.ac961fa8.chunk.js": "/myPortfolio/static/js/466.ac961fa8.chunk.js",
     "static/js/372.3082514e.chunk.js": "/myPortfolio/static/js/372.3082514e.chunk.js",
     "static/js/856.945b9e1b.chunk.js": "/myPortfolio/static/js/856.945b9e1b.chunk.js",
     "static/media/project-1.png": "/myPortfolio/static/media/project-1.30631a3759f9a8ef2b73.png",
-    "static/media/Pravesh_Goyal.pdf": "/myPortfolio/static/media/Pravesh_Goyal.ad3350781fedbfe5ac9f.pdf",
+    "static/media/Pravesh's Resume.pdf": "/myPortfolio/static/media/Pravesh's Resume.ee0299916698eeed59af.pdf",
     "static/media/dp.jpeg": "/myPortfolio/static/media/dp.5399d9ed93aa3ae45931.jpeg",
     "static/media/wc.webp": "/myPortfolio/static/media/wc.44ff161e61a741e9eb91.webp",
     "index.html": "/myPortfolio/index.html",
     "main.f9ca8e1b.css.map": "/myPortfolio/static/css/main.f9ca8e1b.css.map",
-    "main.8eb7b15a.js.map": "/myPortfolio/static/js/main.8eb7b15a.js.map",
+    "main.aaebb5fd.js.map": "/myPortfolio/static/js/main.aaebb5fd.js.map",
     "738.6fe02713.chunk.js.map": "/myPortfolio/static/js/738.6fe02713.chunk.js.map",
     "466.ac961fa8.chunk.js.map": "/myPortfolio/static/js/466.ac961fa8.chunk.js.map",
     "372.3082514e.chunk.js.map": "/myPortfolio/static/js/372.3082514e.chunk.js.map",
@@ -20,6 +20,6 @@
   },
   "entrypoints": [
     "static/css/main.f9ca8e1b.css",
-    "static/js/main.8eb7b15a.js"
+    "static/js/main.aaebb5fd.js"
   ]
 }

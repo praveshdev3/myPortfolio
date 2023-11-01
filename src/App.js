@@ -4,6 +4,7 @@ import Navbar from "./components/navbar";
 import About from "./components/about";
 import React from "react";
 import Experience from "./components/experience";
+import Projects from "./components/projects";
 
 function App() {
   const [page, setPage] = React.useState("about");
@@ -18,6 +19,7 @@ function App() {
           <Navbar onPageChange = {handlePageChange}/>
           <About isActive = {page === "about"}/>
           <Experience isActive = {page === "experience"}/>
+          <Projects isActive = {page === "projects"}/>
         </div>
       </main>
     </>

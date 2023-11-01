@@ -19,6 +19,7 @@ function Sidebar() {
           <img
             src={imageContent}
             alt="Pravesh Goyal"
+             width="80"
           />
         </figure>
 

@@ -17,31 +17,6 @@ function Projects({isActive}) {
 
           <ul className="project-list">
 
-            <li className="project-item  active" data-filter-item data-category="web development">
-              <a href="https://praveshdev3.github.io/myPortfolio/" target="_blank">
-
-                <figure className="project-img">
-                  <div className="project-item-icon-box">
-                    <IonIcon icon={eyeOutline}></IonIcon>
-                  </div>
-
-                  <img src={projectImg} alt="Portfolio" loading="lazy"/>
-                </figure>
-
-                <h3 className="project-title">My Portfolio
-                <IonIcon icon={logoGithub} style={{float:"right"}} onClick={()=>{window.open("https://github.com/praveshdev3/myPortfolio","_blank")}}></IonIcon>
-                </h3>
-
-                <p className="project-category">Portfolio Website showcasing my skills, work experience and projects</p>
-                <div style={{display:"flex", flexWrap:"wrap"}}>
-                    <p style={{borderRadius: "0.5rem", color:"hsl(45, 54%, 58%)", fontSize: "13px", margin: "6px"}}>React</p>
-                    <p style={{borderRadius: "0.5rem", color:"hsl(45, 54%, 58%)", fontSize: "13px", margin: "6px"}}>Javascript</p>
-                    <p style={{borderRadius: "0.5rem", color:"hsl(45, 54%, 58%)", fontSize: "13px", margin: "6px"}}>HTML</p>
-                    <p style={{borderRadius: "0.5rem", color:"hsl(45, 54%, 58%)", fontSize: "13px", margin: "6px"}}>CSS</p>
-                </div>
-              </a>
-            </li>
-
              <li className="project-item  active" data-filter-item data-category="web development">
               <a href="https://github.com/praveshdev3/wc-go" target="_blank">
 
@@ -57,7 +32,7 @@ function Projects({isActive}) {
                 <IonIcon icon={logoGithub} style={{float:"right"}} onClick={()=>{window.open("https://github.com/praveshdev3/wc-go","_blank")}}></IonIcon>
                 </h3>
 
-                <p className="project-category">Wc Unix Utility command to count number of words,chars,bytes in a file</p>
+                <p className="project-category">Developed a custom WC (Word Count) tool in Golang, enabling users to count bytes, lines, words, and characters from files or input streams. The tool efficiently processes input via both file reading and stdin, demonstrating strong Go proficiency in file handling, concurrency, and stream processing. </p>
                 <div style={{display:"flex", flexWrap:"wrap"}}>
                     <p style={{borderRadius: "0.5rem", color:"hsl(45, 54%, 58%)", fontSize: "13px", margin: "6px"}}>Go</p>
                     <p style={{borderRadius: "0.5rem", color:"hsl(45, 54%, 58%)", fontSize: "13px", margin: "6px"}}>Linux</p>

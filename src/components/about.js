@@ -9,27 +9,7 @@ function About({isActive}) {
       </header>
       <section className="about-text">
         <p>
-          I am a seasoned full stack developer with a strong proficiency in
-          GoLang, NodeJs and database management. With a track record of
-          successfully delivering scalable and efficient web applications, I
-          bring a comprehensive skill set to the table. My experience includes
-          designing and implementing amazing frontend, robust APIs, optimizing
-          database performance, and collaborating seamlessly with business
-          teams. I am passionate about staying updated with the latest
-          technologies and frameworks. With my problem-solving abilities and
-          strong analytical skills, I am confident in my ability to contribute
-          to the success of your projects and help create exceptional user
-          experiences.
-        </p>
-
-        <p>
-          Knowledgeable of backend and frontend development requirements.
-          Handles any part of process with ease. Collaborative team player with
-          excellent technical abilities offering 3+ years of related experience.
-          Passionate about implementing and launching new projects. Ability to
-          translate business requirements into technical solutions. Love to
-          constantly learn and keeping up-to-date with the latest technologies
-          and industry trends.
+        Experienced Backend Engineer with a proven track record of delivering scalable and reliable systems for high-impact applications. As the founding backend engineer at TykeInvest, I’ve played a key role in building and scaling production-grade systems serving 30,000+ active users. Skilled in Golang, Node.js, and cloud technologies, with 4 years of hands-on experience translating business requirements into efficient technical solutions. A strong team player passionate about launching new projects, optimizing backend performance, and continuously learning to stay current with evolving technologies and industry trends. 
         </p>
       </section>
       <section className="clients">
@@ -42,10 +22,6 @@ function About({isActive}) {
 
           <li className="clients-item">
             <img alt="nodejs" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" height="100px" width="100px" />
-          </li>
-
-          <li className="clients-item"> 
-            <img alt="angularjs" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" height="100px" width="100px"/>
           </li>
 
           <li className="clients-item">
@@ -66,10 +42,6 @@ function About({isActive}) {
 
           <li className="clients-item"> 
             <img alt="git" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" height="100px" width="100px"/>
-          </li>
-
-          <li className="clients-item">    
-            <img alt="react" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="100px" width="100px" />
           </li>
 
           <li className="clients-item">      

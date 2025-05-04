@@ -25,38 +25,45 @@ function Experience({isActive}) {
 
             <li className="timeline-item">
 
-              <h4 className="h3 timeline-item-title">Full Stack Developer@<a href="https://tykeinvest.com/" target="_blank" style={{display:"inline", color: "#1fd9ed"}}>Tyke</a></h4>
+              <h4 className="h3 timeline-item-title">Backend Developer@<a href="https://tykeinvest.com/" target="_blank" style={{display:"inline", color: "#1fd9ed"}}>Tyke</a></h4>
 
               <span>Mar 2022 — Present</span>
 
               <p className="timeline-text">
-              Led the P2P investor flow, integrating with NBFCs to facilitate seamless operations. Worked on authorization and authentication module, used http cookies, JWT tokens and auth middlewares. Got a chance to work with Redis and AWS Cognito service. Solely handled KYC flow, integrated third party vendors, stored data in mongoDb and postgresQL, wrote unit test cases, used GORM for migrations, worked on microservice architecture. Worked with escrow and in-app wallets and integrations of many payment gateways such as juspay, stripe, tazapay etc. Solely handled Signing flow, integrated third party vendors, stored data in mongoDb and postgresQL, handled webhooks, used AWS Lambdas and Crons for callbacks, and stored documents on AWS S3. Created an editor to customize HTML according to needs and PDF previewer using open source libraries and react. Created a project to convert HTML to pdf using GoLang Created an internal dashboard for admins using react and nodejs assisting them in their daily customer queries.
+              Designed and led the P2P investor flow as a dedicated microservice in Golang, leveraging gRPC for internal service communication and REST APIs for NBFC integrations. Utilized goroutines for concurrent processing, context for managing request lifecycles, and implemented structured logging, retry logic, and error handling to ensure reliable and seamless investment operations. 
+ Implemented secure authentication and authorization, using HTTP cookies, JWT tokens, and custom auth middleware. Integrated Redis and AWS Cognito to enhance session management and identity control.
+Collaborated in the successful migration of legacy NodeJS backend code to Go lang, resulting in a substantial reduction 50% in memory usages and api response time
+Spearheaded the KYC flow, integrating third-party providers via REST. Designed secure data models using PostgreSQL for relational data and MongoDB for unstructured vendor responses, resulting in a 50% reduction in user onboarding time while maintaining compliance and scalability.
+Architected a microservice for Signing flow, integrating third party vendors, handling asynchronous workflows using RabbitMQ, AWS Lambda and CloudWatch scheduled events (Crons), leading to 30% improvement process automation.
+Integrated escrow and in-app wallet flows, building full payment pipelines from scratch using Juspay, Tazapay, Cashfree SDKs, with tight validation and transactional safety.
               </p>
 
             </li>
 
             <li className="timeline-item">
 
-                <h4 className="h3 timeline-item-title">Full Stack Developer@<a href="https://www.surveysensum.com/" target="_blank" style={{display:"inline", color: "#0052CC"}}>NeuroSensum</a></h4>
+                <h4 className="h3 timeline-item-title">Software Developer@<a href="https://www.surveysensum.com/" target="_blank" style={{display:"inline", color: "#0052CC"}}>NeuroSensum</a></h4>
 
 
               <span>Jun 2021 — Feb 2022</span>
 
               <p className="timeline-text">
-                Worked on Outlook Add-In to integrate survey in emails using Microsoft open API’s and javascript Handled Payments module and integrations with Stripe using C# and Angular on frontend Created many Dashboards for clients showing various insights from survey data using Angular Worked on responsive survey collection software, having simple to complex dashboards
+              Led the integration of an Outlook Add-In using Microsoft Open API, enabling seamless embedding of surveys directly within email clients. This enhancement improved survey reach and visibility for 40% of active clients, significantly boosting engagement and response rates.
+              Managed the Payments Module, integrating with Stripe, and optimized the process to reduce payment failures by 10%.
               </p>
 
             </li>
 
             <li className="timeline-item">
 
-                <h4 className="h3 timeline-item-title">Full Stack Developer Intern@<a href="https://www.surveysensum.com/" target="_blank" style={{display:"inline", color: "#0052CC"}}>NeuroSensum</a></h4>
+                <h4 className="h3 timeline-item-title">Software Developer Intern@<a href="https://www.surveysensum.com/" target="_blank" style={{display:"inline", color: "#0052CC"}}>NeuroSensum</a></h4>
 
 
               <span>Dec 2020 — Jun 2021</span>
 
               <p className="timeline-text">
-                Solely did integration with third party vendors and migrated entire data. Got a chance to work on data processing engine and text analytics module capable of processing huge amount of data in matter of seconds
+              Integrated a third-party vendor and optimized the data processing engine to handle large datasets in real time, significantly reducing processing time and improving system throughput. 
+Contributed to the text analytics module, enabling faster insights extraction and enhancing overall response time for high-volume workloads.
               </p>
 
             </li>
